@@ -1,0 +1,35 @@
+import RPi.GPIO as gpio
+import time
+flag=True
+gpio.setwarnings(False)
+delay=0.05
+gpio.setmode(gpio.BOARD)
+gpio.setup(3,gpio.OUT)
+gpio.setup(5,gpio.OUT)
+gpio.setup(7,gpio.OUT)
+gpio.setup(11,gpio.OUT)
+gpio.setup(13,gpio.OUT)
+gpio.setup(15,gpio.OUT)
+gpio.setup(19,gpio.OUT)
+gpio.setup(21,gpio.OUT)
+gpio.setup(23,gpio.OUT)
+gpio.setup(10,gpio.OUT)
+gpio.setup(18,gpio.OUT)
+gpio.setup(26,gpio.OUT)
+gpio.setup(40,gpio.OUT)
+while 1:
+	flag=not flag
+	gpio.output(3,flag)
+	gpio.output(5,flag)
+	gpio.output(7,flag)
+	gpio.output(11,flag)
+	gpio.output(13,flag)
+	gpio.output(15,flag)
+	gpio.output(19,flag)
+	gpio.output(21,flag)
+	gpio.output(23,flag)
+	gpio.output(10,flag)
+	gpio.output(40,flag)
+	gpio.output(18,flag)
+	gpio.output(26,flag)
+	time.sleep(delay)
