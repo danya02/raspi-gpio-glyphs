@@ -4,8 +4,9 @@ import RPi.GPIO as gpio
 gpio.setwarnings(False)
 dict=json.load(open("dict.json"))
 iter=0
+conv=json.load(open("conv.json"))
 gpio.setmode(gpio.BOARD)
-conv=[33,5,19,10,18,40,13,15,3,26,11]
+conv=[conv["1"],conv["2"],conv["3"],conv["4"],conv["5"],conv["6"],conv["7"],conv["8"],conv["9"],conv["10"],conv["11"]]
 while 1:
 	time.sleep(0.1)
 	iter=iter+1
