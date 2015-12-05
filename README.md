@@ -10,3 +10,4 @@ Those glyphs are displayed as a sequence of connected points on the grid. For ex
 ![Being/Human glyph](https://github.com/danya02/raspi-gpio-glyphs/glyph-raster/Being-Human.png)
 
 The information about glyphs is taken from the [Glyphionary] (http://glyphionary.com) website.
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
