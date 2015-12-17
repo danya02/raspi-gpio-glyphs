@@ -1,10 +1,11 @@
+pos="/home/pi/gpio-glyphs/bin/"
 import json
 import RPi.GPIO as gpio
 gpio.setwarnings(False)
-dict=json.load(open("dict.json"))
+dict=json.load(open(pos+"dict.json"))
 iter=0
 gpio.setmode(gpio.BOARD)
-conv=json.loads(open("conv.json").read())
+conv=json.loads(open(pos+"conv.json").read())
 conv_orig=[conv["1"],conv["2"],conv["3"],conv["4"],conv["5"],conv["6"],conv["7"],conv["8"],conv["9"],conv["10"],conv["11"]]
 print("Choose which Shaper glyph you would like to display:")
 for i in dict["def"]:
