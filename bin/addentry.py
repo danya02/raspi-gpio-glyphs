@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import json
 s=["@","*","*","*","*","*","*","*","*","*","*","*"]
 dict=json.load(open("dict.json"))

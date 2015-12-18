@@ -1,3 +1,4 @@
+#!/usr/bin/python
 pos="/home/pi/gpio-glyphs/bin/"
 import RPi.GPIO as gpio
 import time
