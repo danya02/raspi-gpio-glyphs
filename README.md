@@ -1,3 +1,4 @@
+# WARNING - Development halted!
 # raspi-gpio-glyphs
 This repository contaions data required to display glyphs, as seen in the popular online game, [Ingress] (http://www.ingress.com/), on a special matrix of LEDs via a Raspberry Pi and several jumper cables.
 # Glyphs
